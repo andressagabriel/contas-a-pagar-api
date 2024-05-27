@@ -14,9 +14,6 @@ public class ContaService {
 
     @Autowired
     private ContaRepository contaRepository;
-
-    @Autowired
-    //private ModelMapper modelMapper;
     
     // Método para listar contas
     public List<RetornoContaDto> listarContas() {
